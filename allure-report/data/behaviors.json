@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "example test",
+    "uid" : "3dfc5197418dd373",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646391358992,
+      "stop" : 1646391361411,
+      "duration" : 2419
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "SearchSomething",
+    "uid" : "d1eece127b47882",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646391358994,
+      "stop" : 1646391360608,
+      "duration" : 1614
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

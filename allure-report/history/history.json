@@ -1,0 +1,40 @@
+{
+  "chromium test.ts SearchSomething" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1eece127b47882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646391358994,
+        "stop" : 1646391360608,
+        "duration" : 1614
+      }
+    } ]
+  },
+  "chromium VisualComparisonsTests/gettingStart.test.ts example test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dfc5197418dd373",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646391358992,
+        "stop" : 1646391361411,
+        "duration" : 2419
+      }
+    } ]
+  }
+}

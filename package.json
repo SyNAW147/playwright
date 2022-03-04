@@ -1,0 +1,20 @@
+{
+  "name": "playwritetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test tests/e2e --project=chromium --headed",
+    "visualTests": "npx playwright test tests/VisualComparisonsTests/ --project=chromium --headed",
+    "report": "npx playwright test --reporter=experimental-allure-playwright",
+    "reportGenerate": "npx allure generate ./allure-results --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.19.2",
+    "allure-commandline": "^2.17.2",
+    "experimental-allure-playwright": "^0.0.3"
+  }
+}

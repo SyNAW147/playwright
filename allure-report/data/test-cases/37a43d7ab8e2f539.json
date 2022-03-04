@@ -1,0 +1,85 @@
+{
+  "uid" : "37a43d7ab8e2f539",
+  "name" : "example test",
+  "fullName" : "example test",
+  "historyId" : "chromium VisualComparisonsTests/gettingStart.test.ts example test",
+  "time" : {
+    "start" : 1646391281437,
+    "stop" : 1646391282719,
+    "duration" : 1282
+  },
+  "status" : "failed",
+  "statusMessage" : "Snapshot comparison failed:\n\nExpected: /Users/eugenedanilchik/work/playWriteTest/test-results/VisualComparisonsTests-gettingStart-example-test-chromium/gettingStarted-expected.png\nReceived: /Users/eugenedanilchik/work/playWriteTest/test-results/VisualComparisonsTests-gettingStart-example-test-chromium/gettingStarted-actual.png\n    Diff: /Users/eugenedanilchik/work/playWriteTest/test-results/VisualComparisonsTests-gettingStart-example-test-chromium/gettingStarted-diff.png",
+  "statusTrace" : "\n    at /Users/eugenedanilchik/work/playWriteTest/tests/VisualComparisonsTests/gettingStart.test.ts:5:37",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Snapshot comparison failed:\n\nExpected: /Users/eugenedanilchik/work/playWriteTest/test-results/VisualComparisonsTests-gettingStart-example-test-chromium/gettingStarted-expected.png\nReceived: /Users/eugenedanilchik/work/playWriteTest/test-results/VisualComparisonsTests-gettingStart-example-test-chromium/gettingStarted-actual.png\n    Diff: /Users/eugenedanilchik/work/playWriteTest/test-results/VisualComparisonsTests-gettingStart-example-test-chromium/gettingStarted-diff.png",
+    "statusTrace" : "\n    at /Users/eugenedanilchik/work/playWriteTest/tests/VisualComparisonsTests/gettingStart.test.ts:5:37",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "expected",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "name" : "actual",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "name" : "diff",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "8f9c92eddbcb2978",
+      "name" : "video",
+      "source" : "8f9c92eddbcb2978.webm",
+      "type" : "video/webm",
+      "size" : 109526
+    }, {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "VisualComparisonsTests/gettingStart.test.ts"
+  }, {
+    "name" : "testType",
+    "value" : "screenshotDiff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37a43d7ab8e2f539.json",
+  "parameterValues" : [ ]
+}
